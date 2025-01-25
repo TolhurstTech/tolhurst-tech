@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+@import url("https://use.typekit.net/zlk8lsp.css");
 
 body {
     background: #182028;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
@@ -13,8 +14,8 @@ body {
     font-size: 9vmin;
     color: #8bf;
     text-align: left;
-    font-family: "Smooch Sans", serif;
-    font-weight: 700;
+    font-family: "code-saver", sans-serif;
+    font-weight: 400;
     margin: 1rem 0 1rem 2rem;
   }
   
