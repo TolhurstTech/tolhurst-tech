@@ -1,7 +1,12 @@
 @import url("https://use.typekit.net/zlk8lsp.css");
 
+:root {
+    --bgColor: #120b13;
+    --txtColor1:#05a1fc;
+}
+
 body {
-    background: #182028;
+    background: var(--bgColor);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +17,7 @@ body {
   
   h1 {
     font-size: 9vmin;
-    color: #8bf;
+    color: var(--txtColor1);
     text-align: left;
     font-family: "code-saver", sans-serif;
     font-weight: 400;
