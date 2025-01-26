@@ -1,5 +1,8 @@
 @import url("https://use.typekit.net/zlk8lsp.css");
 
+
+* {margin: 0; padding: 0}
+
 :root {
     --bgColor: #120b13;
     --txtColor1:#05a1fc;
@@ -15,14 +18,16 @@ body {
     margin: 0;
   }
   
-  h1 {
+h1 {
     font-size: 9vmin;
     color: var(--txtColor1);
     text-align: left;
     font-family: "code-saver", sans-serif;
     font-weight: 400;
     margin: 1rem 0 1rem 2rem;
-  }
+}
+
+canvas {display: block;}
   
   /* Typewriter effect 1 */
   @keyframes typing {
